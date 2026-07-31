@@ -14,3 +14,4 @@ question = st.selectbox("Select a Question", list(faqs.keys()))
 
 if st.button("Get Answer"):
     st.success(faqs[question])
+    
